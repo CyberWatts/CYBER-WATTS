@@ -1,0 +1,165 @@
+body{background-image: url(../imagens/fundo-cyber.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+font-family: "Orbitron" , monospace;
+color: #f3f3f3;
+font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 30px;
+}
+
+.cartao{
+background-color: rgb(7, 6, 6);
+width: 370px;
+border: 4px solid #54ce02;
+border-radius: 10px;
+overflow: hidden;
+}
+
+
+
+.cartao .minha-informacoes {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.cartao .minha-informacoes img{
+    border-radius: 50px;
+    border:  4px solid#54ce02;
+    width: 96px;
+    height: 96px;
+}
+.cartao .minha-informacoes .cargo{
+font-size: 20px;
+color:  #b8b8b8;
+}
+
+.cartao .conteudo {
+    background-color: #1a1919;
+    margin-top: 15px;
+
+}
+.cartao .abas{
+    display: flex;
+
+}
+
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.
+    2s ease-in-out;
+}
+.cartao .abas img{
+width: 30px;
+}
+
+.cartao .abas .aba.selecionado{
+    background-color: #262626;
+}
+.cartao .informacoes-abas{
+    background-color: #262626;
+}
+.cartao .abas .aba:hover{
+    background-color: #414141;
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+    
+}
+
+.informacoes-abas .informacao.selecionado{
+    
+display: block;
+}
+
+
+
+.informacoes-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .informacao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+ 
+}
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #00d10a #070d12;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #070d12;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #00cc00;
+    border-radius: 20px;
+    border: 3px solid #070d12;
+  }
+  .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+   
+
+  }
+  .redes-sociais li a{
+    background-color: #f70909;
+    width: 250px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+    
+
+}
+
+.redes-sociais .soundcloud{
+    background-color: #ff970f;
+
+}
+.redes-sociais .youtube{
+    background-color: rgb(218, 4, 4);
+
+}
+.redes-sociais .bandcamp{
+    background-color: #1270eb; 
+}
+.redes-sociais li a:hover{
+    opacity: 0.5;
+}
+
+
+
+    
+
+
